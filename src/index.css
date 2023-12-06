@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --text1: #ffffff;
+        --text2: #667079;
+        --accent: #6fabea;
+        --background: #232323;
+        --foreground: #2f2f2f;
+    }
+    html{
+        font-family: 'Maven Pro', sans-serif;
+    }
+}
