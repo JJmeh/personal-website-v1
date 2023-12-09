@@ -56,7 +56,7 @@ onMounted(() => {
         </ul>
       </div>
       <div class="fixed right-10 bottom-0 w-10 flex flex-col items-center" id="right-decoration">
-        <a class="text-text1 text-xl my-auto mb-8" href="mailto: jeremiah.kaliki@gmail.com" style="writing-mode: vertical-lr;">jeremiah.kaliki@gmail.com <p>{{ heightMain }}</p></a>
+        <a class="text-text1 text-xl my-auto mb-8" href="mailto: jeremiah.kaliki@gmail.com" style="writing-mode: vertical-lr;">jeremiah.kaliki@gmail.com</a>
       </div>
     </div>
     <RouterView />

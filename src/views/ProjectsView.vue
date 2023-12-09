@@ -12,7 +12,7 @@
   function getReq() {
     axios
         .get(
-            'https://script.google.com/macros/s/AKfycbwxHk1Wwuj1CC5W49bP3lb8qzrqC817YUqFqw6gVfPjkGHrTiVQODT7rjEb-gTq46o/exec?type=1'
+            'https://script.google.com/macros/s/AKfycbwxHk1Wwuj1CC5W49bP3lb8qzrqC817YUqFqw6gVfPjkGHrTiVQODT7rjEb-gTq46o/exec?type=2'
         )
         .then((response) => {
             data.value = response.data
