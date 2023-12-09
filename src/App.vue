@@ -17,12 +17,11 @@ onMounted(() => {
         /* otherwise if we're scrolling up, fix the nav to the top */
           headerDiv.classList.add('fixedToTop')
           headerDiv.style.top = '0'
-          headerDiv.style.borderBottom = 'var(--foreground) solid 1px'
           headerDiv.style.backgroundColor = 'var(--background)'
+          headerDiv.style.filter = 'drop-shadow(0px 4px 16px #181818)'
         }
       }
       if (currentScrollPos <= 30){
-        headerDiv.style.borderBottom = 'unset'
         headerDiv.style.backgroundColor = 'transparent'
       }
       prevScrollpos = currentScrollPos;
@@ -40,7 +39,7 @@ onMounted(() => {
       <RouterLink class="sm:text-2xl text-1xl sm:mx-5 mx-2 font-bold" to="/projects">My Projects</RouterLink>
     </nav>
   </header>
-  <main ref="mainRef" class="flex flex-col items-center w-full max-w-screen-3xl mx-auto min-h-screen sm:px-32 lg:px-36 px-10 overflow-hidden z-0">
+  <main ref="mainRef" class="flex flex-col items-center w-full max-w-screen-3xl mx-auto min-h-screen sm:px-24 lg:px-36 px-8 overflow-hidden z-0">
     <div id="left-right-decoration" class="hidden sm:block">
       <div class="fixed left-10 bottom-0 w-10">
         <ul class="flex flex-col justify-center items-center" id="left-decoration">
